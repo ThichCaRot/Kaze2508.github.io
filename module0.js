@@ -1,2 +1,2 @@
-var x = 9999999;
+var x = 12345;
 document.write(x);
