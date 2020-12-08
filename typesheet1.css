@@ -10,14 +10,13 @@ body{ font-family: Arial, Helvetica, sans-serif;
 }
 #member{
     border: 1px solid black;
-    margin-right: 348px;
+    margin-right: 310px;
     background-color: powderblue;
     border-radius: 26px;
     text-align: center;
-    margin-left: 338px;}
+    margin-left: 319px;
+    color: white;}
 #imagin{
-    color: white;
-
     margin-left: 46px;
     margin-right: 46px;
 
