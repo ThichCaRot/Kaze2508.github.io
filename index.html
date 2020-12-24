@@ -1,28 +1,133 @@
-<!DOCTYPE html>
+bbbbbbbbbbbbbb<!DOCTYPE html>
 <html>
     <head>
-       <link rel="stylesheet" type="text/css" href="typesheet1.css">
+      <link rel="stylesheet" type="text/css" href="stylesheet1.css">
 	   <title>Nekoro Project</title>
-	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=Ex9bhRe21rs9a1_IT5Ihk-0FaN8p0ZgP1bSpB-iSXMF3CiN6oiX1HJ0Y6U0gpl64F9a2JQLn-JvVqbCyLn-3bGcDUW9edyJlBromXYwXXmrJ8tGTY6jOJzkxAhm0EDgccocbxFDFmiB8okuazRtvNLXLyeY_Sr8KbE_-kfbWQvmDV2C91is5QR3NhffceNdHh0rBXKJOYxqmzFQE80XAR1blNEcWa7sxpjptafmElZ6FxoN0qIXWCptSwYQKSv928RTII07K0pmzfMTYQ-QubK856zpqWRjzWYruO4vPM0unCl_3i0hM2ixfgmRI8ey41eSDq5P7AU6FEIjpiTVdNKNmJkq424r4USnp9K_zs_9qXvsEmMF0QVEqIylwhjdlR3ovV1EJviVSjgztgd8dp7mQ4ZmyPB8gSlheaZipmHMBYPd7ACpZycDIqxNHf7688s3gJIV4RAdJxKsBIsOeSw" charset="UTF-8"></script><style>
+        .accordion {
+          background-color: #eee;
+          color: #444;
+          cursor: pointer;
+          padding: 18px;
+          width: 100%;
+          border: none;
+          text-align: left;
+          outline: none;
+          font-size: 20px;
+          transition: 0.4s;
+        }
+        
+        .active, .accordion:hover {
+          background-color: #ccc;
+        }
+        
+        .accordion:after {
+          content: '\002B';
+          color: #777;
+          font-weight: bold;
+          float: right;
+          margin-left: 5px;
+        }
+        
+        .active:after {
+          content: "\2212";
+        }
+        
+        .panel {
+          padding: 0 18px;
+          background-color: white;
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.2s ease-out;
+        }
+        </style>
     </head>
     <body>
         <h1 id="title" > NEKORO PROJECT</h1>
-        <div id="member"> 
-            <h style="margin-left: 32px;">Founder</h>
-             <ul style="list-style-type: none;">
-                 <li>Ngô Tạ Đình Phong</li>
-                 <li>Võ Đông Quân</li>
-                 <li>Nguyễn Huỳnh Tuyết Vi</li>
-                 <li>tv4</li>
-                 <li>tv5</li>
-             </ul>
-        </div>
-		<div id="imagin">
-            <p>Ý tưởng của dự án Nekoro xuất hiện từ hiện tượng thực tế: Vì sao công nghệ đang phát triển hàng loạt nhưng vẫn phải dùng đến con người để dọn rác, cụ thể ở Việt Nam?
-				Trong quá trình chuyển đổi số, việc thúc đẩy người dân sử dụng nền tảng số trong các hoạt động thường ngày là một việc nên làm. Mọi người giờ đây đã có thể thanh toán tiền điện, cước viễn thông, mua hàng tiện lợi bằng app ngân hàng và ví điện tử như Momo, VNPT Pay... nhưng tiền rác vẫn phải cho người đến từng nhà thu ?! 
-				Bên cạnh đó còn có những nguyên nhân phụ như ngày mưa sẽ gặp khó khăn khi dọn và nhiều vấn đề bất cập khác thường xuyên phát sinh. Nếu chuyển đổi sang một mô hình được tự động hóa chạy bằng máy móc, tỉ lệ thường trực làm việc sẽ cao hơn. Với một đất nước đang phát triển như Việt Nam, du lịch cũng góp phần quan trọng trong việc quảng bá đất nước và tăng nguồn thu. Cảnh quan luôn sạch đẹp sẽ giúp bộ mặt nước nhà đẹp hơn trong mắt người đến thăm.
-				</p> 
+      <div>
+        <img src="head.png" width="250px" height="250px" style="padding-left: 356px;
+        height: 330px;
+        width: 513px;"> </img>
+        <img src="purpose1.png" style="width: 513px;
+        padding-left: 356px;">
+      </div>
+      <div>
+        <table>
+          <tr>
+            <td>
+              <button class="accordion">SỰ KHỞI ĐẦU</button>
+              <div class="panel">
+                <p>Ý tưởng của dự án Nekoro xuất hiện từ hiện tượng thực tế: </p>
+                <p> Trong quá trình chuyển đổi số, việc thúc đẩy người dân sử dụng nền tảng số trong các hoạt động thường ngày là một việc nên làm.</p>
+                <p> Mọi người giờ đây đã có thể thanh toán tiền điện, cước viễn thông, mua hàng tiện lợi bằng app ngân hàng và ví điện tử như Momo, VNPT Pay... nhưng tiền rác vẫn phải cho người đến từng nhà thu ?! </p>
+                <p>Bên cạnh đó còn có những nguyên nhân phụ như ngày mưa sẽ gặp khó khăn khi dọn và nhiều vấn đề bất cập khác thường xuyên phát sinh.</p>
+                <p>Nếu chuyển đổi sang một mô hình được tự động hóa chạy bằng máy móc, tỉ lệ thường trực làm việc sẽ cao hơn.</p>
+                <p>Với một đất nước đang phát triển như Việt Nam, du lịch cũng góp phần quan trọng trong việc quảng bá đất nước và tăng nguồn thu.</p>
+                <p>Cảnh quan luôn sạch đẹp sẽ giúp bộ mặt nước nhà đẹp hơn trong mắt người đến thăm.</p>
+              </div>
+              <button class="accordion">MÔ TẢ DỰ ÁN</button>
+              <div class="panel">
+                <p>Cốt lõi của dự án sẽ là những con robot, còn gọi là Nekoro.</p>
+                <p>Đây là những con robot hoạt động cơ khí đơn giản, được quản lí bằng server từ xa.</p>
+                <p>Nekoro sẽ được triển khai theo quy mô lớn để đạt được hiệu quả cần thiết.</p>
+                <p> Thời gian đầu Nekoro sẽ được triển khai thử nghiệm trong phạm vi làng Đại học để vừa cải thiện và sửa lỗi, vừa thu thập cho Nekoro “học” dọn rác.</p>
+                <p>Startup sẽ liên hệ và phối hợp với những công nhân dọn rác đang hoạt động giúp Nekoro học cách dọn dẹp và phân loại rác từ họ.</p>
+                <p>ITTE sẽ trả tiền làm thêm cho họ khi gián tiếp ảnh hưởng đến năng suất làm việc của họ.</p>
+                <p>Chính những người thu tiền rác khu vực sẽ quảng cáo để mọi người chuyển đổi sang hình thức mới</p>
+                <p>Quan trọng nhất sau Nekoro là hệ thống quản lí.</p>
+                <p>Sau khi hoàn thành những nguyên mẫu đầu tiên, chúng tôi sẽ xây dựng một server cơ bản để quản lí robot trước.</p>
+                <p>Về sau sẽ nâng cấp hạ tầng giúp robot có khả năng “tự học” dọn hiệu quả hơn.</p>
+                <p>Mục tiêu quan trọng khi design Nekoro nhắm đến nó phải thân thiện với mọi người, vẫn đảm bảo hiệu quả và cân bằng giá thành.</p>
+                <p>Nekoro sẽ xây dựng mối quan hệ với khách hàng như một người bạn hỗ trợ dọn dẹp, giúp họ thuận tiện hơn trong cuộc sống như giải quyết hoá đơn định kì cuối tháng.</p>
+              </div>
+
+              <button class="accordion">CÁC THÀNH VIÊN THAM GIA</button>
+              <div class="panel">
+                <p>Ngô Tạ Đình Phong</p>
+                <p>Võ Đông Quân</p>
+                <P>Nguyễn Huỳnh Tuyết Vi</P>
+                <P>Lê Nguyễn Quang Duy</P>
+                <p>Trần Nhật Viên</p>
+              </div>
+              <script>
+                var acc = document.getElementsByClassName("accordion");
+                var i;
                 
-        </div>
-    </body>
+                for (i = 0; i < acc.length; i++) {
+                  acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                      panel.style.maxHeight = null;
+                    } else {
+                      panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                  });
+                }
+              </script>
+            </td>
+            <td>
+              <video  id="videoo" controls>
+                <source src="0001-0136.mp4" type="video/mp4"  >
+              </video>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div style="color: black;
+      background-color: rgb(247,268,195);
+      padding-top: 2px;
+      padding-bottom: 31px;
+      padding-left: 31px;
+      width: 350px;
+      border-radius: 15px;">
+        <p>video giới thiệu dự án NEKORO :</p>
+        <a href="https://youtu.be/Cdl7_CC0Xog">Youtube</a>
+      </div>
+      <footer>
+        <img src="footer.png" style="width: 1253px;
+        padding-top: 27px;">
+      </footer>
+      </body>
 </html>
