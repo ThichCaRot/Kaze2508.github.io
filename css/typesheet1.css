@@ -1,4 +1,4 @@
-body{background-image: url("1280x720_lines-abstract-background-point-scheme-background-free.jpg");
+body{background-image: url("/css/1280x720_lines-abstract-background-point-scheme-background-free.jpg");
     background-attachment: fixed;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
    }
@@ -10,7 +10,7 @@ body{background-image: url("1280x720_lines-abstract-background-point-scheme-back
    margin-right: -8px;
    margin-left: -8px;
    background-attachment: scroll;
-   background-position-yy: center;
+   background-position-y: center;
 } 
 #imagin{
    background-color: palegoldenrod;
