@@ -1,0 +1,44 @@
+body{background-image: url("1280x720_lines-abstract-background-point-scheme-background-free.jpg");
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   }
+#title{
+   background-color: rgb(103,242,238);
+   text-align: center;
+   color: rgb(131,130,180);
+   margin-top: -8px;
+   margin-right: -8px;
+   margin-left: -8px;
+   background-attachment: scroll;
+   background-position-yy: center;
+} 
+#imagin{
+   background-color: palegoldenrod;
+   color: rgb(0,0,0);
+   padding-top: 5px;
+   padding-left: 26px;
+   padding-right: 26px;
+   padding-bottom: 25px;
+   margin-left: 276px;
+   margin-right: 276px;
+}
+#dis{
+   background-color: rgb(244,171,150);
+   color: rgb(0,0,0);
+   padding-top: 5px;
+   padding-left: 27px;
+   padding-right: 27px;
+   padding-bottom: 15px;
+   margin-top: 15px;
+   margin-left: 15px;
+   margin-right: 535px;
+}  
+#member{
+   background-color: rgb(176,123,0);
+   padding-top: 5px;
+   color: white;
+   padding-left: 15px;
+   margin-left: 428px;
+   margin-right: 537px;
+   margin-top: 19px;
+   text-align: center;}
