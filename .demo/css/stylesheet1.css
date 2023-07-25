@@ -1,0 +1,62 @@
+body{background-image: url("/img/World___United_Arab_Emirates_Skyscrapers_in_Dubai_in_the_fog_085878_.jpg");
+     background-attachment: fixed;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+#title{
+    background-image: url("/css/gradient-geometric-shape-background_78532-374.jpg");
+    text-align: left;
+    color: rgb(135,239,134);
+    margin-top: -8px;
+    margin-right: -8px;
+    margin-left: -8px;
+    background-attachment: scroll;
+    background-position-y: center;
+} 
+#imagin{
+    background-color: palegoldenrod;
+    color: rgb(0,0,0);
+    padding-top: 5px;
+    padding-left: 26px;
+    padding-right: 26px;
+    padding-bottom: 25px;
+    margin-left: 276px;
+    margin-right: 276px;
+}
+#put1{
+    border: 1px;
+    background-color: palegoldenrod;
+    align-items: center;
+}
+#dis{
+    background-color: rgb(244,171,150);
+    color: rgb(0,0,0);
+    padding-top: 5px;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 535px;
+}  
+#put2{border:1px;
+    background-color: rgb(244,171,150);
+
+}
+#member{
+    background-color: rgb(176,123,0);
+    padding-top: 5px;
+    color: white;
+    padding-left: 15px;
+    margin-left: 428px;
+    margin-right: 537px;
+    margin-top: 19px;
+    text-align: center;}
+#put3{border:1px;
+    background-color: rgb(176,123,0);
+}
+#videoo{padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 25px;
+    height: 253px;
+    width: 575px;
+}
